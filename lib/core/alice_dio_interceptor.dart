@@ -7,7 +7,7 @@ import 'package:alice/model/alice_http_call.dart';
 import 'package:alice/model/alice_http_error.dart';
 import 'package:alice/model/alice_http_request.dart';
 import 'package:alice/model/alice_http_response.dart';
-import 'package:dio/dio.dart';
+import 'package:dio_http/dio_http.dart';
 
 class AliceDioInterceptor extends InterceptorsWrapper {
   /// AliceCore instance
